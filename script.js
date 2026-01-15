@@ -14,4 +14,3 @@ function showProject(image, description) {
     <p style="margin-top:10px; font-size:18px;">${description}</p>
   `;
 }
-
