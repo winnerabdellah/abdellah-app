@@ -26,4 +26,32 @@
 <section id="projects">
   <h2>Nos projets</h2>
 
-  <div class="card" onclick="showProjec
+  <div class="card" onclick="showProject('robot.jpg','Voici notre Robot FLL, construit avec passion.')">
+    🤖 Robot FLL
+  </div>
+
+  <div class="card" onclick="showProject('archeologie.jpg','Innovation Project – Archéologie, très innovant !')">
+    🏺 Innovation Project – Archéologie
+  </div>
+
+  <div class="card" onclick="showProject('arduino.jpg','Autonomous Smart System, notre projet technologique.')">
+    💡 Autonomous Smart System
+  </div>
+
+  <div id="project-display"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <input id="name" placeholder="Ton nom">
+  <br><br>
+  <button onclick="sendMessage()">Envoyer</button>
+  <br><br>
+  <a href="https://wa.me/2126XXXXXXXX" target="_blank">
+    <button class="whatsapp">Contact WhatsApp</button>
+  </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
