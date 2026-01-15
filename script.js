@@ -1,0 +1,17 @@
+function sendMessage() {
+  let name = document.getElementById("name").value;
+  if(name === "") {
+    alert("Écris ton nom stp 😊");
+  } else {
+    alert("Merci " + name + " ! Ton message a été envoyé 🚀");
+  }
+}
+
+function showProject(image, description) {
+  const display = document.getElementById("project-display");
+  display.innerHTML = `
+    <img src="${image}" alt="Project" style="width:300px; border-radius:15px; margin-top:20px;">
+    <p style="margin-top:10px; font-size:18px;">${description}</p>
+  `;
+}
+
