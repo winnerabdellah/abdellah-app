@@ -1,10 +1,10 @@
 /* === style.css === */
 
-/* Style général de la page */
+/* Style général */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0a0f27; /* fond sombre */
+  background: #0a0f27;
   color: white;
   text-align: center;
 }
@@ -12,7 +12,7 @@ body {
 /* Header */
 header {
   padding: 50px;
-  background: linear-gradient(135deg, #f59e0b, #ef4444); /* dégradé FLL */
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
   color: white;
 }
 
@@ -37,3 +37,60 @@ nav a:hover {
 
 /* Sections */
 section {
+  padding: 50px 20px;
+}
+
+/* Cartes projets */
+.card {
+  background: #1e293b;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 220px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #111827;
+}
+
+/* Input et boutons */
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ef4444;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #f59e0b;
+}
+
+button.whatsapp {
+  background: #25D366;
+  margin-top: 10px;
+}
+
+button.whatsapp:hover {
+  background: #128C7E;
+}
+
+/* Zone d'affichage du projet */
+#project-display {
+  margin-top: 30px;
+}
