@@ -1,56 +1,9 @@
-/* === style.css === */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0a0f27;
-  color: white;
-  text-align: center;
-}
+function sendMessage() {
+  let name = document.getElementById("name").value;
 
-header {
-  padding: 50px;
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
-  color: white;
+  if(name === "") {
+    alert("Écris ton nom stp 😊");
+  } else {
+    alert("Merci " + name + " ! Ton message a été envoyé 🚀");
+  }
 }
-
-nav {
-  padding: 15px;
-  background: #0a0f27;
-}
-
-nav a {
-  color: #facc15;
-  margin: 15px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ef4444;
-}
-
-section {
-  padding: 50px 20px;
-}
-
-.card {
-  background: #1e293b;
-  padding: 25px;
-  margin: 15px;
-  border-radius: 20px;
-  display: inline-block;
-  width: 220px;
-  transition: transform 0.3s, background 0.3s;
-}
-
-.card:hover {
-  transform: scale(1.1);
-  background: #111827;
-}
-
-input {
-  padding: 12px;
-  border-radius: 10px;
-  border: none;
