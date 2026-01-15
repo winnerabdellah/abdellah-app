@@ -1,12 +1,12 @@
 function sendMessage() {
   let name = document.getElementById("name").value;
-
   if(name === "") {
     alert("Écris ton nom stp 😊");
   } else {
     alert("Merci " + name + " ! Ton message a été envoyé 🚀");
   }
 }
+
 function showProject(image, description) {
   const display = document.getElementById("project-display");
   display.innerHTML = `
