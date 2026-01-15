@@ -1,10 +1,9 @@
 /* === style.css === */
 
-/* Style général */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0a0f27;
+  background: #0a0f27; /* Fond sombre */
   color: white;
   text-align: center;
 }
@@ -12,7 +11,7 @@ body {
 /* Header */
 header {
   padding: 50px;
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  background: linear-gradient(135deg, #f59e0b, #ef4444); /* Dégradé FLL */
   color: white;
 }
 
