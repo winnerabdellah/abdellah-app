@@ -1,16 +1,39 @@
-function sendMessage() {
-  let name = document.getElementById("name").value;
-  if(name === "") {
-    alert("Écris ton nom stp 😊");
-  } else {
-    alert("Merci " + name + " ! Ton message a été envoyé 🚀");
-  }
+/* === style.css === */
+
+/* Style général de la page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0f27; /* fond sombre */
+  color: white;
+  text-align: center;
 }
 
-function showProject(image, description) {
-  const display = document.getElementById("project-display");
-  display.innerHTML = `
-    <img src="${image}" alt="Project" style="width:300px; border-radius:15px; margin-top:20px;">
-    <p style="margin-top:10px; font-size:18px;">${description}</p>
-  `;
+/* Header */
+header {
+  padding: 50px;
+  background: linear-gradient(135deg, #f59e0b, #ef4444); /* dégradé FLL */
+  color: white;
 }
+
+/* Navigation */
+nav {
+  padding: 15px;
+  background: #0a0f27;
+}
+
+nav a {
+  color: #facc15;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ef4444;
+}
+
+/* Sections */
+section {
